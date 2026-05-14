@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сантехник Профессионал</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#222;
+        }
+
+        header{
+            background:linear-gradient(135deg,#0077ff,#00bfff);
+            color:white;
+            padding:80px 20px;
+            text-align:center;
+        }
+
+        header h1{
+            font-size:50px;
+            margin-bottom:15px;
+        }
+
+        header p{
+            font-size:22px;
+            margin-bottom:25px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#ff9800;
+            color:white;
+            text-decoration:none;
+            padding:15px 35px;
+            border-radius:10px;
+            font-size:20px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#e68900;
+            transform:scale(1.05);
+        }
+
+        section{
+            padding:70px 10%;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:40px;
+            font-size:38px;
+            color:#0077ff;
+        }
+
+        .services{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            padding:30px;
+            text-align:center;
+            box-shadow:0 5px 15px rgba(0,0,0,0.15);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            color:#0077ff;
+        }
+
+        .about{
+            background:white;
+            border-radius:20px;
+            padding:40px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        .contacts{
+            text-align:center;
+            background:#0077ff;
+            color:white;
+            border-radius:20px;
+            padding:50px;
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🔧 Сантехник [Имя Папы]</h1>
+    <p>Качественные сантехнические работы быстро и надёжно</p>
+    <a href="tel:+79999999999" class="btn">📞 Позвонить</a>
+</header>
+
+<section>
+    <h2>Наши услуги</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>🚿 Установка сантехники</h3>
+            <p>Монтаж душевых кабин, ванн, унитазов и раковин.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Ремонт труб</h3>
+            <p>Устранение протечек и замена труб любой сложности.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔥 Установка бойлеров</h3>
+            <p>Подключение и обслуживание водонагревателей.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚰 Чистка засоров</h3>
+            <p>Быстро устраняем любые засоры в трубах.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="about">
+        <h2>О мастере</h2>
+        <p>
+            Более 10 лет опыта работы в сфере сантехники.
+            Честные цены, качественная работа и гарантия на услуги.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="contacts">
+        <h2>Контакты</h2>
+        <p>📍 Ваш город</p>
+        <p>📞 +7 (999) 999-99-99</p>
+        <p>🕒 Работаем ежедневно</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Сантехнические услуги | Надёжность и качество
+</footer>
+
+</body>
+</html>
